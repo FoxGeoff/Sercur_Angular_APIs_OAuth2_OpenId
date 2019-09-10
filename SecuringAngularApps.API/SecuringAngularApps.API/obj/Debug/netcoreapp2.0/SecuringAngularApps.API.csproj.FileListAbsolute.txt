@@ -1,0 +1,11 @@
+C:\Users\geoff\GitHub\Sercur_Angular_APIs_OAuth2_OpenId\SecuringAngularApps.API\SecuringAngularApps.API\bin\Debug\netcoreapp2.0\SecuringAngularApps.API.deps.json
+C:\Users\geoff\GitHub\Sercur_Angular_APIs_OAuth2_OpenId\SecuringAngularApps.API\SecuringAngularApps.API\bin\Debug\netcoreapp2.0\SecuringAngularApps.API.runtimeconfig.json
+C:\Users\geoff\GitHub\Sercur_Angular_APIs_OAuth2_OpenId\SecuringAngularApps.API\SecuringAngularApps.API\bin\Debug\netcoreapp2.0\SecuringAngularApps.API.runtimeconfig.dev.json
+C:\Users\geoff\GitHub\Sercur_Angular_APIs_OAuth2_OpenId\SecuringAngularApps.API\SecuringAngularApps.API\bin\Debug\netcoreapp2.0\SecuringAngularApps.API.dll
+C:\Users\geoff\GitHub\Sercur_Angular_APIs_OAuth2_OpenId\SecuringAngularApps.API\SecuringAngularApps.API\bin\Debug\netcoreapp2.0\SecuringAngularApps.API.pdb
+C:\Users\geoff\GitHub\Sercur_Angular_APIs_OAuth2_OpenId\SecuringAngularApps.API\SecuringAngularApps.API\obj\Debug\netcoreapp2.0\SecuringAngularApps.API.csprojAssemblyReference.cache
+C:\Users\geoff\GitHub\Sercur_Angular_APIs_OAuth2_OpenId\SecuringAngularApps.API\SecuringAngularApps.API\obj\Debug\netcoreapp2.0\SecuringAngularApps.API.csproj.CoreCompileInputs.cache
+C:\Users\geoff\GitHub\Sercur_Angular_APIs_OAuth2_OpenId\SecuringAngularApps.API\SecuringAngularApps.API\obj\Debug\netcoreapp2.0\SecuringAngularApps.API.AssemblyInfoInputs.cache
+C:\Users\geoff\GitHub\Sercur_Angular_APIs_OAuth2_OpenId\SecuringAngularApps.API\SecuringAngularApps.API\obj\Debug\netcoreapp2.0\SecuringAngularApps.API.AssemblyInfo.cs
+C:\Users\geoff\GitHub\Sercur_Angular_APIs_OAuth2_OpenId\SecuringAngularApps.API\SecuringAngularApps.API\obj\Debug\netcoreapp2.0\SecuringAngularApps.API.dll
+C:\Users\geoff\GitHub\Sercur_Angular_APIs_OAuth2_OpenId\SecuringAngularApps.API\SecuringAngularApps.API\obj\Debug\netcoreapp2.0\SecuringAngularApps.API.pdb
