@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\geoff\\GitHub\\Sercur_Angular_APIs_OAuth2_OpenId\\SecuringAngularApps.API\\SecuringAngularApps.API\\SecuringAngularApps.API.csproj",
+  "FilePath": "c:\\Users\\geoff\\GitHub\\AI_Auth19\\SecuringAngularApps.API\\SecuringAngularApps.API\\SecuringAngularApps.API.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-2.0",
     "LanguageVersion": "2.0",
@@ -2682,7 +2682,7 @@
             "IsEnum": false,
             "IndexerNamePrefix": null,
             "IndexerTypeName": null,
-            "Documentation": null,
+            "Documentation": "\n            <summary>\n            Specifies the path to the JavaScript module containing prerendering code.\n            </summary>\n        ",
             "Diagnostics": [],
             "Metadata": {
               "Common.PropertyName": "ModuleName"

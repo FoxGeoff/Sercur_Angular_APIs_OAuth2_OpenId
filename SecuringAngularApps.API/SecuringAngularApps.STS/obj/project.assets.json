@@ -13261,11 +13261,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\geoff\\GitHub\\Sercur_Angular_APIs_OAuth2_OpenId\\SecuringAngularApps.API\\SecuringAngularApps.STS\\SecuringAngularApps.STS.csproj",
+      "projectUniqueName": "C:\\Users\\geoff\\GitHub\\AI_Auth19\\SecuringAngularApps.API\\SecuringAngularApps.STS\\SecuringAngularApps.STS.csproj",
       "projectName": "SecuringAngularApps.STS",
-      "projectPath": "c:\\Users\\geoff\\GitHub\\Sercur_Angular_APIs_OAuth2_OpenId\\SecuringAngularApps.API\\SecuringAngularApps.STS\\SecuringAngularApps.STS.csproj",
+      "projectPath": "C:\\Users\\geoff\\GitHub\\AI_Auth19\\SecuringAngularApps.API\\SecuringAngularApps.STS\\SecuringAngularApps.STS.csproj",
       "packagesPath": "C:\\Users\\geoff\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\geoff\\GitHub\\Sercur_Angular_APIs_OAuth2_OpenId\\SecuringAngularApps.API\\SecuringAngularApps.STS\\obj\\",
+      "outputPath": "C:\\Users\\geoff\\GitHub\\AI_Auth19\\SecuringAngularApps.API\\SecuringAngularApps.STS\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
