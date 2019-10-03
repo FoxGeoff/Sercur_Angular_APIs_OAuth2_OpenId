@@ -13,7 +13,7 @@ export class AuthService {
   authContext: AuthContext;
 
   constructor(private httpClient: HttpClient) {
-    Log.logger = console;
+    Log.logger = console; // debug
     var config = {
       authority: Constants.stsAuthority,
       client_id: Constants.clientId,
