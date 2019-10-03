@@ -9,5 +9,6 @@ namespace SecuringAngularApps.API.Model
     {
         public UserProfile UserProfile { get; set; }
         public List<SimpleClaim> SimpleClaims { get; set; }
+        public List<SimpleClaim> Claims { get; internal set; }
     }
 }

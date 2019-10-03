@@ -24,11 +24,32 @@ namespace SecuringAngularApps.API.Controllers
         }
 
         [HttpGet("Users")]
+        [Authorize(roles = "Admin")]
         public IActionResult GetAllUsers()
         {
             var admins = _context.UserPermissions.Where(up => up.Value == "Admin").Select(up => up.UserProfileId).ToList();
             var users = _context.UserProfiles.Where(u => !admins.Contains(u.Id));
             return Ok(users);
+        }
+
+        [HttpGet("AuthContext")]
+        [Authorize]
+        public AuthContext GetAuthContext()
+        {
+            var userId = this.User.FindFirstValue(ClaimTypes.NameIdentifier);
+            var profile = _context.UserProfiles.Include("UserPermissions")
+                .FirstOrDefault(u => u.Id == userId);
+            if (profile == null) return null;
+
+            return new AuthContext
+            {
+                UserProfile = profile,
+                Claims = User.Claims.Select(c => new SimpleClaim
+                {
+                    Type = c.Type,
+                    Value = c.Value
+                }).ToList()
+            };
         }
 
         [HttpPost("Profile")]
