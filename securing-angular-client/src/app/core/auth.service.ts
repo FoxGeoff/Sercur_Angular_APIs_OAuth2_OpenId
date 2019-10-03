@@ -32,6 +32,7 @@ export class AuthService {
         this.loadSecurityContext();
       }
     });
+    // Add userloaded event to check each time
     this._userManager.events.addUserLoaded(args => {
       this._userManager.getUser().then(user => {
         this._user = user;
