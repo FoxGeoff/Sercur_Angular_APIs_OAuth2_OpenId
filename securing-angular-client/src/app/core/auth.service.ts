@@ -62,8 +62,9 @@ export class AuthService {
   }
 
   loadSecurityContext() {
-    this.httpClient.get<AuthContext>(`${Constants.apiRoot}Account/AuthContext`).subscribe(context => {
-      this.authContext = context;
-    }, error => console.error(Utils.formatError(error)));
+    this.httpClient.get<AuthContext>(`${Constants.apiRoot}Account/AuthContext`)
+      .subscribe(context => {
+        this.authContext = context;
+      }, error => console.error(Utils.formatError(error)));
   }
 }

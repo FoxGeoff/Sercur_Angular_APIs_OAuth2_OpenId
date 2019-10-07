@@ -24,7 +24,7 @@ namespace SecuringAngularApps.API.Controllers
         }
 
         [HttpGet("Users")]
-        [Authorize(roles = "Admin")]
+        [Authorize(Roles = "Admin")]
         public IActionResult GetAllUsers()
         {
             var admins = _context.UserPermissions.Where(up => up.Value == "Admin").Select(up => up.UserProfileId).ToList();
